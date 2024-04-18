@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """This module gather data form an API"""
-import requests
 import json
+import requests
 
 if __name__ == "__main__":
     try:
