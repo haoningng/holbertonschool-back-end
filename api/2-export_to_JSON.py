@@ -27,7 +27,7 @@ if __name__ == "__main__":
         user_id = str(USER_ID)
         user_todo[user_id] = data_list
 
-        json_file = '{}.csv'.format(USER_ID)
+        json_file = '{}.json'.format(USER_ID)
 
         with open(json_file, 'w') as file:
             json.dump(user_todo, file)
